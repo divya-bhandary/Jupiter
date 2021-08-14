@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.div.proj.ExtentListeners.ExtentListeners"/>
+  </listeners>
+  <test name="test">
+    <classes>
+      <class name="com.div.proj.testcases.ShopAddToCartTest"/>
+    </classes>
+  </test> <!-- test -->
+</suite> <!-- Failed suite [Suite] -->

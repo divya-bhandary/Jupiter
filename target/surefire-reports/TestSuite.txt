@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 576.352 sec <<< FAILURE! - in TestSuite
+ShopAddToCartTest(com.div.proj.testcases.ShopAddToCartTest)  Time elapsed: 29.402 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	Funny Cow Quantity mismatch expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.div.proj.testcases.ShopAddToCartTest.ShopAddToCartTest(ShopAddToCartTest.java:58)
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16663" started-at="2021-08-14T15:32:10Z" finished-at="2021-08-14T15:32:26Z">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="16663" started-at="2021-08-14T15:32:10Z" finished-at="2021-08-14T15:32:26Z">
+      <class name="com.div.proj.testcases.ShopAddToCartTest">
+        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:com.div.proj.testcases.ShopAddToCartTest@222114ba]" name="setUpFramework" is-config="true" duration-ms="720" started-at="2021-08-15T01:32:09Z" finished-at="2021-08-15T01:32:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFramework -->
+        <test-method status="PASS" signature="ShopAddToCartTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ShopAddToCartTest@222114ba]" name="ShopAddToCartTest" duration-ms="13238" started-at="2021-08-15T01:32:11Z" data-provider="masterDP" finished-at="2021-08-15T01:32:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopAddToCartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ShopAddToCartTest@222114ba]" name="tearDown" is-config="true" duration-ms="1960" started-at="2021-08-15T01:32:24Z" finished-at="2021-08-15T01:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.div.proj.testcases.ShopAddToCartTest -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
+</testng-results>

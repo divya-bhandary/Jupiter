@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+
+	<listeners>
+
+		<listener
+			class-name="com.div.proj.ExtentListeners.ExtentListeners"></listener>
+
+	</listeners>
+
+
+<test name="test" preserve-order="true">
+        <classes>
+<class name="com.div.proj.testcases.ValidateMandatoryFieldsContactTest"/>
+<class name="com.div.proj.testcases.ContactPageSubmitTest"/>
+<class name="com.div.proj.testcases.ShopAddToCartTest"/>
+<class name="com.div.proj.testcases.CartTotalAmountTest"/>
+        </classes>
+    </test>
+    
+
+<!-- 	<test name="Test1" >
+		<classes>
+			<class
+				name="com.div.proj.testcases.ValidateMandatoryFieldsContactTest" />
+		</classes>
+	</test>
+
+	<test name="Test2">
+		<classes>
+			<class name="com.div.proj.testcases.ContactPageSubmitTest" />
+		</classes>
+	</test> -->
+
+<!-- 	<test name="Test3">
+		<classes>
+			<class name="com.div.proj.testcases.ShopAddToCartTest" />
+		</classes>
+	</test>
+
+	<test name="Test4">
+		<classes>
+			<class name="com.div.proj.testcases.CartTotalAmountTest" />
+		</classes>
+	</test>
+	 -->
+
+</suite> <!-- Suite -->
