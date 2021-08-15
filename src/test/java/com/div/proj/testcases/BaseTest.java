@@ -19,6 +19,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -35,7 +36,6 @@ public class BaseTest {
 	private Properties Config = new Properties();
 	private FileInputStream fis;
 	public Logger log = Logger.getLogger(BaseTest.class);
-	public boolean grid = false;
 	private String defaultUserName;
 	private String defaultPassword;
 
@@ -97,7 +97,6 @@ public class BaseTest {
 	public void setUpFramework() {
 
 		configureLogging();
-		DriverFactory.setGridPath("http://localhost:4444/wd/hub");
 		DriverFactory.setConfigPropertyFilePath(
 				System.getProperty("user.dir") + "//src//test//resources//properties//Config.properties");
 
@@ -156,13 +155,6 @@ public class BaseTest {
 
 	public void openBrowser(String browser) {
 
-		if (System.getenv("ExecutionType") != null && System.getenv("ExecutionType").equals("Grid")) {
-
-			grid = true;
-		}
-
-		DriverFactory.setRemote(grid);
-
 		if (DriverFactory.isRemote()) {
 			DesiredCapabilities cap = null;
 
@@ -182,13 +174,6 @@ public class BaseTest {
 				cap = DesiredCapabilities.internetExplorer();
 				cap.setBrowserName("iexplore");
 				cap.setPlatform(Platform.WIN10);
-			}
-
-			try {
-				driver = new RemoteWebDriver(new URL(DriverFactory.getGridPath()), cap);
-			} catch (MalformedURLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
 			}
 
 		} else
@@ -230,6 +215,24 @@ public class BaseTest {
 			return flag;
 
 		} catch (Exception Ex) {
+			return flag;
+		}
+	}
+
+	public boolean performClick(WebElement element) {
+		boolean flag = false;
+		try {
+			new WebDriverWait(driver, 10).ignoring(StaleElementReferenceException.class)
+					.until(ExpectedConditions.elementToBeClickable(element));
+			Actions actions = new Actions(driver);
+
+			actions.moveToElement(element).click().build().perform();
+			flag = true;
+			return flag;
+
+		}
+
+		catch (Exception Ex) {
 			return flag;
 		}
 	}

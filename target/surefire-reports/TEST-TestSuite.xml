@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="285.458" tests="8" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="254.893" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher compile test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,42 +64,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="validateMandatoryFieldsContactTest" classname="com.div.proj.testcases.ValidateMandatoryFieldsContactTest" time="208.126"/>
-  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="31.273"/>
-  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="49.003"/>
-  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="36.763"/>
-  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="68.156"/>
-  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="53.323"/>
-  <testcase name="ShopAddToCartTest" classname="com.div.proj.testcases.ShopAddToCartTest" time="29.402">
-    <failure message="The following asserts failed:&#10;	Funny Cow Quantity mismatch expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
-	Funny Cow Quantity mismatch expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at com.div.proj.testcases.ShopAddToCartTest.ShopAddToCartTest(ShopAddToCartTest.java:58)
-</failure>
-    <system-out><![CDATA[Browser closed
-INFO    2021-08-15 02:25:58,057 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
-ShopAddToCartTest
-Total rows are : 15
-Test case starts from row num: 9
-Total rows of data are : 1
-Total cols are : 2
-INFO    2021-08-15 02:25:58,430 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Shop - Add to cart Test
-Launching : chrome
-INFO    2021-08-15 02:26:04,673 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
-Page Opened
-Clicked on Shop
-INFO    2021-08-15 02:26:25,318 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Ah what the heck. Lets add 2 Funny Cow Toys
-INFO    2021-08-15 02:26:25,457 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Mum is losing her mind
-Clicked on Cart
-INFO    2021-08-15 02:26:27,337 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Funny Cow Quantity added :1
-INFO    2021-08-15 02:26:27,860 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Fluffy Bunny Quantity added :1
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 27523
-Only local connections are allowed.
-Aug 15, 2021 2:26:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="CartTotalAmountTest" classname="com.div.proj.testcases.CartTotalAmountTest" time="16.657"/>
+  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="31.552"/>
+  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="23.78"/>
+  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="19.65"/>
+  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="17.547"/>
+  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="22.817"/>
+  <testcase name="ShopAddToCartTest" classname="com.div.proj.testcases.ShopAddToCartTest" time="26.306"/>
+  <testcase name="CartTotalAmountTest" classname="com.div.proj.testcases.CartTotalAmountTest" time="54.073"/>
+  <testcase name="validateMandatoryFieldsContactTest" classname="com.div.proj.testcases.ValidateMandatoryFieldsContactTest" time="142.962"/>
 </testsuite>

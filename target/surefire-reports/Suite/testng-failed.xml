@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="com.div.proj.ExtentListeners.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" verbose="0" name="test(failed)" parallel="tests">
+  <test thread-count="5" verbose="0" name="test(failed)" parallel="methods">
     <classes>
       <class name="com.div.proj.testcases.ShopAddToCartTest">
         <methods>

@@ -11,7 +11,7 @@
 	</listeners>
 
 
-<test name="test" preserve-order="true">
+<test name="test" preserve-order="true" parallel = "methods">
         <classes>
 <class name="com.div.proj.testcases.ValidateMandatoryFieldsContactTest"/>
 <class name="com.div.proj.testcases.ContactPageSubmitTest"/>

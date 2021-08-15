@@ -31,14 +31,18 @@ public class ShopAddToCartTest extends BaseTest {
 		
 		ShopAddToCartPage shop = home.gotoShop();
 
-		shop.funnyCowBuy.click();
-		Thread.sleep(1000);
-		shop.funnyCowBuy.click();
+//		shop.funnyCowBuy.click();
+//		Thread.sleep(1000);
+//		shop.funnyCowBuy.click();
+		
+		performClick(shop.funnyCowBuy);
+		performClick(shop.funnyCowBuy);
+
 
 		log.info("Ah what the heck. Lets add 2 Funny Cow Toys");
 		
 		shop.fluffyBunnyBuy.click();
-		log.info("Mum is losing her mind");
+		log.info("Adding a Fluffy Bunny. Mum is losing her mind");
 		
 
 		CartPage cart = shop.gotoCart();
