@@ -1,33 +1,33 @@
-INFO    2021-08-15 16:56:06,179 [main] com.div.proj.testcases.BaseTest  - Config properties file loaded
-INFO    2021-08-15 16:56:08,129 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Contact Page Success Test
-INFO    2021-08-15 16:56:08,214 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Cart Total Amount Test
-INFO    2021-08-15 16:56:08,219 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Validate Mandatory Fields Contact Test
-INFO    2021-08-15 16:56:08,385 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Shop - Add to cart Test
-INFO    2021-08-15 16:56:22,923 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
-INFO    2021-08-15 16:56:23,123 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
-INFO    2021-08-15 16:56:23,166 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
-INFO    2021-08-15 16:56:24,422 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
-INFO    2021-08-15 16:56:46,202 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
-INFO    2021-08-15 16:56:46,491 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Contact Page Success Test
-INFO    2021-08-15 16:56:54,220 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
-INFO    2021-08-15 16:56:56,207 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Ah what the heck. Lets add 2 Funny Cow Toys
-INFO    2021-08-15 16:56:56,373 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Adding a Fluffy Bunny. Mum is losing her mind
-INFO    2021-08-15 16:57:12,548 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Funny Cow Quantity added :2
-INFO    2021-08-15 16:57:12,611 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Fluffy Bunny Quantity added :1
-INFO    2021-08-15 16:57:23,209 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
-INFO    2021-08-15 16:57:23,377 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Contact Page Success Test
-INFO    2021-08-15 16:57:30,839 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
-INFO    2021-08-15 16:57:33,939 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
-INFO    2021-08-15 16:57:44,695 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
-INFO    2021-08-15 16:57:44,867 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Contact Page Success Test
-INFO    2021-08-15 16:57:51,054 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
-INFO    2021-08-15 16:58:04,095 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
-INFO    2021-08-15 16:58:04,243 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Contact Page Success Test
-INFO    2021-08-15 16:58:09,109 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
-INFO    2021-08-15 16:58:28,784 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
-INFO    2021-08-15 16:58:51,585 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Added 2 Frogs, 5 Bunnys, 3 Bears
-INFO    2021-08-15 16:58:57,107 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - stuffed Frog Quantity added :2.0
-INFO    2021-08-15 16:58:57,151 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - fluffy Bunny Quantity added :5.0
-INFO    2021-08-15 16:58:57,191 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - valentine Bear Quantity added :3.0
-INFO    2021-08-15 16:58:59,848 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
-INFO    2021-08-15 17:00:28,684 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
+INFO    2021-08-16 00:04:13,446 [main] com.div.proj.testcases.BaseTest  - Config properties file loaded
+INFO    2021-08-16 00:04:15,056 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Validate Mandatory Fields Contact Test
+INFO    2021-08-16 00:04:15,102 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Contact Page Success Test
+INFO    2021-08-16 00:04:15,161 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Cart Total Amount Test
+INFO    2021-08-16 00:04:15,182 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Shop - Add to cart Test
+INFO    2021-08-16 00:04:42,304 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
+INFO    2021-08-16 00:04:42,309 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
+INFO    2021-08-16 00:04:42,697 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
+INFO    2021-08-16 00:04:44,107 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
+INFO    2021-08-16 00:05:22,889 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Added 2 Frogs, 5 Bunnys, 3 Bears
+INFO    2021-08-16 00:05:23,387 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - stuffed Frog Quantity added :2.0
+INFO    2021-08-16 00:05:23,442 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - fluffy Bunny Quantity added :5.0
+INFO    2021-08-16 00:05:23,498 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - valentine Bear Quantity added :3.0
+INFO    2021-08-16 00:05:42,845 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
+INFO    2021-08-16 00:05:47,440 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Ah what the heck. Lets add 2 Funny Cow Toys
+INFO    2021-08-16 00:05:51,205 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
+INFO    2021-08-16 00:05:51,341 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Contact Page Success Test
+INFO    2021-08-16 00:05:55,203 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Adding a Fluffy Bunny. Mum is losing her mind
+INFO    2021-08-16 00:05:56,684 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
+INFO    2021-08-16 00:06:07,674 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Funny Cow Quantity added :2
+INFO    2021-08-16 00:06:07,716 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Fluffy Bunny Quantity added :1
+INFO    2021-08-16 00:06:08,674 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
+INFO    2021-08-16 00:06:19,164 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
+INFO    2021-08-16 00:06:19,265 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Contact Page Success Test
+INFO    2021-08-16 00:06:25,452 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
+INFO    2021-08-16 00:06:52,674 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
+INFO    2021-08-16 00:06:52,850 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Contact Page Success Test
+INFO    2021-08-16 00:06:58,364 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
+INFO    2021-08-16 00:07:09,155 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
+INFO    2021-08-16 00:07:09,277 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Inside Contact Page Success Test
+INFO    2021-08-16 00:07:15,393 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Driver Initialized !!!
+INFO    2021-08-16 00:07:25,863 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!
+INFO    2021-08-16 00:08:30,967 [TestNG-PoolService-0] com.div.proj.testcases.BaseTest  - Test Execution Completed !!!

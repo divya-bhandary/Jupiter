@@ -11,7 +11,8 @@ import com.div.proj.utilities.DriverManager;
 public class ShopAddToCartPage extends BasePage{
 	
 
-	@FindBy(xpath="//div[contains(.,\"Funny Cow\")]/p/a")
+	//@FindBy(xpath="//div[contains(.,\"Funny Cow\")]/p/a")
+	@FindBy(xpath="//*[contains(text(),'Funny Cow')]/parent::div/p/a")
 	public WebElement funnyCowBuy;
 	
 	@FindBy(xpath="//div[contains(.,\"Fluffy Bunny\")]/p/a")
