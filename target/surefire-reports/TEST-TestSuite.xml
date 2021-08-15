@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="254.893" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="1,361.074" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
     <property name="java.vm.version" value="25.151-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\divya\Desktop\PageObjectExtended"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\divya\Desktop\PageObjectExtended\Jupiter"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\divya\Desktop\PageObjectExtended"/>
+    <property name="user.dir" value="C:\Users\divya\Desktop\PageObjectExtended\Jupiter"/>
     <property name="java.runtime.version" value="1.8.0_151-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
@@ -64,12 +64,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="31.552"/>
-  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="23.78"/>
-  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="19.65"/>
-  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="17.547"/>
-  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="22.817"/>
-  <testcase name="ShopAddToCartTest" classname="com.div.proj.testcases.ShopAddToCartTest" time="26.306"/>
-  <testcase name="CartTotalAmountTest" classname="com.div.proj.testcases.CartTotalAmountTest" time="54.073"/>
-  <testcase name="validateMandatoryFieldsContactTest" classname="com.div.proj.testcases.ValidateMandatoryFieldsContactTest" time="142.962"/>
+  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="120.42"/>
+  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="26.677"/>
+  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="30.443"/>
+  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="33.553"/>
+  <testcase name="ContactPageSubmitTest" classname="com.div.proj.testcases.ContactPageSubmitTest" time="1,206.932"/>
+  <testcase name="ShopAddToCartTest" classname="com.div.proj.testcases.ShopAddToCartTest" time="13.594"/>
+  <testcase name="CartTotalAmountTest" classname="com.div.proj.testcases.CartTotalAmountTest" time="20.068"/>
+  <testcase name="validateMandatoryFieldsContactTest" classname="com.div.proj.testcases.ValidateMandatoryFieldsContactTest" time="1,206.992"/>
 </testsuite>

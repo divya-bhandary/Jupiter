@@ -36,14 +36,18 @@ public class ShopAddToCartTest extends BaseTest {
 //		shop.funnyCowBuy.click();
 		
 		performClick(shop.funnyCowBuy);
-		performClick(shop.funnyCowBuy);
+		Thread.sleep(1000);
+
 
 
 		log.info("Ah what the heck. Lets add 2 Funny Cow Toys");
 		
 		shop.fluffyBunnyBuy.click();
 		log.info("Adding a Fluffy Bunny. Mum is losing her mind");
+		Thread.sleep(1000);
+		performClick(shop.funnyCowBuy);
 		
+
 
 		CartPage cart = shop.gotoCart();
 		

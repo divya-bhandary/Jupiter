@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="3" total="11" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="262492" started-at="2021-08-15T16:56:06 AEST" finished-at="2021-08-15T17:00:28 AEST">
+  <suite name="Suite" duration-ms="301809" started-at="2021-08-15T22:38:53 AEST" finished-at="2021-08-15T22:43:55 AEST">
     <groups>
     </groups>
-    <test name="test" duration-ms="262492" started-at="2021-08-15T16:56:06 AEST" finished-at="2021-08-15T17:00:28 AEST">
+    <test name="test" duration-ms="301809" started-at="2021-08-15T22:38:53 AEST" finished-at="2021-08-15T22:43:55 AEST">
       <class name="com.div.proj.testcases.ContactPageSubmitTest">
-        <test-method status="PASS" signature="ContactPageSubmitTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="ContactPageSubmitTest" duration-ms="32456" started-at="2021-08-15T16:56:07 AEST" data-provider="masterDP" finished-at="2021-08-15T16:56:40 AEST">
+        <test-method status="PASS" signature="ContactPageSubmitTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="ContactPageSubmitTest" duration-ms="120423" started-at="2021-08-15T22:38:54 AEST" data-provider="masterDP" finished-at="2021-08-15T22:40:55 AEST">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactPageSubmitTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="tearDown" is-config="true" duration-ms="5893" started-at="2021-08-15T16:56:40 AEST" finished-at="2021-08-15T16:56:46 AEST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="tearDown" is-config="true" duration-ms="971" started-at="2021-08-15T22:40:55 AEST" finished-at="2021-08-15T22:40:56 AEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="ContactPageSubmitTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="ContactPageSubmitTest" duration-ms="23780" started-at="2021-08-15T16:56:46 AEST" data-provider="masterDP" finished-at="2021-08-15T16:57:10 AEST">
+        <test-method status="PASS" signature="ContactPageSubmitTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="ContactPageSubmitTest" duration-ms="26685" started-at="2021-08-15T22:40:56 AEST" data-provider="masterDP" finished-at="2021-08-15T22:41:22 AEST">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactPageSubmitTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="tearDown" is-config="true" duration-ms="13118" started-at="2021-08-15T16:57:10 AEST" finished-at="2021-08-15T16:57:23 AEST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="tearDown" is-config="true" duration-ms="979" started-at="2021-08-15T22:41:22 AEST" finished-at="2021-08-15T22:41:23 AEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="ContactPageSubmitTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="ContactPageSubmitTest" duration-ms="19650" started-at="2021-08-15T16:57:23 AEST" data-provider="masterDP" finished-at="2021-08-15T16:57:42 AEST">
+        <test-method status="PASS" signature="ContactPageSubmitTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="ContactPageSubmitTest" duration-ms="30439" started-at="2021-08-15T22:41:23 AEST" data-provider="masterDP" finished-at="2021-08-15T22:41:54 AEST">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactPageSubmitTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="tearDown" is-config="true" duration-ms="1751" started-at="2021-08-15T16:57:42 AEST" finished-at="2021-08-15T16:57:44 AEST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="tearDown" is-config="true" duration-ms="1083" started-at="2021-08-15T22:41:54 AEST" finished-at="2021-08-15T22:41:55 AEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="ContactPageSubmitTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="ContactPageSubmitTest" duration-ms="17557" started-at="2021-08-15T16:57:44 AEST" data-provider="masterDP" finished-at="2021-08-15T16:58:02 AEST">
+        <test-method status="PASS" signature="ContactPageSubmitTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="ContactPageSubmitTest" duration-ms="33556" started-at="2021-08-15T22:41:55 AEST" data-provider="masterDP" finished-at="2021-08-15T22:42:28 AEST">
           <params>
             <param index="0">
               <value>
@@ -63,11 +63,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactPageSubmitTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="tearDown" is-config="true" duration-ms="1754" started-at="2021-08-15T16:58:02 AEST" finished-at="2021-08-15T16:58:04 AEST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="tearDown" is-config="true" duration-ms="881" started-at="2021-08-15T22:42:28 AEST" finished-at="2021-08-15T22:42:29 AEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="ContactPageSubmitTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="ContactPageSubmitTest" duration-ms="22817" started-at="2021-08-15T16:58:04 AEST" data-provider="masterDP" finished-at="2021-08-15T16:58:26 AEST">
+        <test-method status="PASS" signature="ContactPageSubmitTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="ContactPageSubmitTest" duration-ms="31565" started-at="2021-08-15T22:42:29 AEST" data-provider="masterDP" finished-at="2021-08-15T22:43:01 AEST">
           <params>
             <param index="0">
               <value>
@@ -78,13 +78,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactPageSubmitTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="tearDown" is-config="true" duration-ms="1824" started-at="2021-08-15T16:58:26 AEST" finished-at="2021-08-15T16:58:28 AEST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ContactPageSubmitTest@727803de]" name="tearDown" is-config="true" duration-ms="1611" started-at="2021-08-15T22:43:01 AEST" finished-at="2021-08-15T22:43:03 AEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.div.proj.testcases.ContactPageSubmitTest -->
       <class name="com.div.proj.testcases.CartTotalAmountTest">
-        <test-method status="PASS" signature="CartTotalAmountTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.CartTotalAmountTest@df27fae]" name="CartTotalAmountTest" duration-ms="170378" started-at="2021-08-15T16:56:07 AEST" data-provider="masterDP" finished-at="2021-08-15T16:58:58 AEST">
+        <test-method status="PASS" signature="CartTotalAmountTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.CartTotalAmountTest@df27fae]" name="CartTotalAmountTest" duration-ms="169246" started-at="2021-08-15T22:38:54 AEST" data-provider="masterDP" finished-at="2021-08-15T22:41:43 AEST">
           <params>
             <param index="0">
               <value>
@@ -95,17 +95,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartTotalAmountTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.CartTotalAmountTest@df27fae]" name="tearDown" is-config="true" duration-ms="1633" started-at="2021-08-15T16:58:58 AEST" finished-at="2021-08-15T16:58:59 AEST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.CartTotalAmountTest@df27fae]" name="tearDown" is-config="true" duration-ms="1642" started-at="2021-08-15T22:41:43 AEST" finished-at="2021-08-15T22:41:45 AEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.div.proj.testcases.CartTotalAmountTest -->
       <class name="com.div.proj.testcases.ValidateMandatoryFieldsContactTest">
-        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:com.div.proj.testcases.ValidateMandatoryFieldsContactTest@306279ee]" name="setUpFramework" is-config="true" duration-ms="101" started-at="2021-08-15T16:56:06 AEST" finished-at="2021-08-15T16:56:06 AEST">
+        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:com.div.proj.testcases.ValidateMandatoryFieldsContactTest@306279ee]" name="setUpFramework" is-config="true" duration-ms="100" started-at="2021-08-15T22:38:53 AEST" finished-at="2021-08-15T22:38:53 AEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpFramework -->
-        <test-method status="PASS" signature="validateMandatoryFieldsContactTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ValidateMandatoryFieldsContactTest@306279ee]" name="validateMandatoryFieldsContactTest" duration-ms="259133" started-at="2021-08-15T16:56:07 AEST" data-provider="masterDP" finished-at="2021-08-15T17:00:26 AEST">
+        <test-method status="PASS" signature="validateMandatoryFieldsContactTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ValidateMandatoryFieldsContactTest@306279ee]" name="validateMandatoryFieldsContactTest" duration-ms="299234" started-at="2021-08-15T22:38:54 AEST" data-provider="masterDP" finished-at="2021-08-15T22:43:53 AEST">
           <params>
             <param index="0">
               <value>
@@ -116,13 +116,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMandatoryFieldsContactTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ValidateMandatoryFieldsContactTest@306279ee]" name="tearDown" is-config="true" duration-ms="1710" started-at="2021-08-15T17:00:26 AEST" finished-at="2021-08-15T17:00:28 AEST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ValidateMandatoryFieldsContactTest@306279ee]" name="tearDown" is-config="true" duration-ms="1296" started-at="2021-08-15T22:43:53 AEST" finished-at="2021-08-15T22:43:55 AEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.div.proj.testcases.ValidateMandatoryFieldsContactTest -->
       <class name="com.div.proj.testcases.ShopAddToCartTest">
-        <test-method status="PASS" signature="ShopAddToCartTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ShopAddToCartTest@704921a5]" name="ShopAddToCartTest" duration-ms="64772" started-at="2021-08-15T16:56:07 AEST" data-provider="masterDP" finished-at="2021-08-15T16:57:12 AEST">
+        <test-method status="PASS" signature="ShopAddToCartTest(java.util.Hashtable)[pri:0, instance:com.div.proj.testcases.ShopAddToCartTest@704921a5]" name="ShopAddToCartTest" duration-ms="135046" started-at="2021-08-15T22:38:54 AEST" data-provider="masterDP" finished-at="2021-08-15T22:41:09 AEST">
           <params>
             <param index="0">
               <value>
@@ -133,7 +133,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShopAddToCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ShopAddToCartTest@704921a5]" name="tearDown" is-config="true" duration-ms="21328" started-at="2021-08-15T16:57:12 AEST" finished-at="2021-08-15T16:57:33 AEST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.div.proj.testcases.ShopAddToCartTest@704921a5]" name="tearDown" is-config="true" duration-ms="925" started-at="2021-08-15T22:41:09 AEST" finished-at="2021-08-15T22:41:10 AEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
